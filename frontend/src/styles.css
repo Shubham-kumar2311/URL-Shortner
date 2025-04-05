@@ -1,0 +1,60 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav a, nav button {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  img {
+    margin-top: 10px;
+    max-width: 200px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
